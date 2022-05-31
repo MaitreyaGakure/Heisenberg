@@ -33,7 +33,7 @@
 
      <center>
           
-          <p>
+ <p>
           <form>
                <a href="https://www.netflix.com/br/title/70143836">
                     <input type="button"> <img src="http://www.savewalterwhite.com/img/donate_button.png" /></button>
@@ -43,7 +43,7 @@
           <p> 
 
                <br>
-          <form action="enviar.php" method="post" autocomplete="on">
+ <form action="enviar.php" method="post" autocomplete="on">
                <label for="name">Nome:</label>
                <br>
                <input type="text" id="name" name="name" value="Heisenberg">
@@ -84,7 +84,7 @@
           </form>
      </p>
 
-          <div>
+ <div>
                <a href="https://www.tiktok.com/@theheisenbergvariant"><img style="margin:5px"
                          src="https://logopng.com.br/logos/tiktok-115.png" width="30" height="30" alt="TikTok"></a>
                <a href="https://www.instagram.com/bryancranston/"><img style="margin:5px"
@@ -93,9 +93,9 @@
                <a href="https://www.youtube.com/watch?v=ZyJvvYfE1x4"><img style="margin:5px"
                          src="https://www.apaulista.org.br/wp-content/uploads/2021/02/youtube-logo.png" width="30"
                          height="30" alt="Youtube"></a>
-          </div>
+ </div>
 
-     </center>
+  </center>
 
 </body>
 
