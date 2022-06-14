@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 08-Jun-2022 às 15:22
+-- Tempo de geração: 14-Jun-2022 às 18:55
 -- Versão do servidor: 10.4.11-MariaDB
 -- versão do PHP: 7.4.2
 
@@ -19,22 +19,30 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `heisenberg`
+-- Banco de dados: `walter white`
 --
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `cookmeth`
+-- Estrutura da tabela `cadastro`
 --
 
-CREATE TABLE `cookmeth` (
-  `Nome` varchar(255) NOT NULL,
-  `Personagem` varchar(255) NOT NULL,
-  `Pollos Hermanos` varchar(1) NOT NULL,
-  `Meth Cook` varchar(1) NOT NULL,
-  `DEA` varchar(1) NOT NULL
+CREATE TABLE `cadastro` (
+  `nome` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `senha` varchar(32) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Índices para tabelas despejadas
+--
+
+--
+-- Índices para tabela `cadastro`
+--
+ALTER TABLE `cadastro`
+  ADD PRIMARY KEY (`nome`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
