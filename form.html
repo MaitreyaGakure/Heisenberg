@@ -1,43 +1,104 @@
-<!DOCTYPE html>
-<html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulário</title>
 
-<style type="text/css">
-  body{
-    background-size: 100%;
-  };
-  body {
-    width: 420px;
-   border: solid;
-  }
-  div.a {
+</head>
+<body>
+<style>
+    *{ margin:0; padding:0;}
+
+body{ font:100% normal Arial, Helvetica, sans-serif; background-image: url(https://cdn.wallpapersafari.com/64/82/qxkP7L.png); background-repeat: no-repeat; background-size: 100%;}
+
+form,input,select,textarea{margin:0; padding:0; color:#ffffff;}
+
+div.box {
+    margin:0 auto;
+    width:500px;
+    background:#222222;
+    position:relative;
+    top:50px;
+    border:1px solid #262626;
+}
+
+div.box h3 {
+    color:#ffffff;
+    font-size:18px;
+    text-transform:uppercase;
+    padding:5px 0 5px 5px;
+    border-bottom:1px solid #161712;
+    border-top:1px solid #161712;
+}
+
+div.box label {
+    width:100%;
+    display: block;
+    background:#1C1C1C;
+    border-top:1px solid #262626;
+    border-bottom:1px solid #161712;
+    padding:10px 0 10px 0;
+}
+
+div.box label span {
+    display: block;
+    color:#bbbbbb;
+    font-size:12px;
+    float:left;
+    width:100px;
+    text-align:right;
+    padding:5px 20px 0 0;
+}
+
+div.box .input_text {
+    padding:10px 10px;
+    width:200px;
+    background:#262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+}
+
+div.box .message{
+    padding:7px 7px;
+    width:350px;
+    background:#262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+    overflow:hidden;
+    height:150px;
+}
+
+div.box .input_submit {
+    color: black;
+    position: center;
     text-align: center;
-  }
+    left: 32px;
+}
+
 </style>
 
-<head>
-       <title>Seto Kaiba</title>
-       <meta charset="utf-8">
-</head>
-
-<body>
-
-<div class="a">
-
-<fieldset><legend><h3>Cadastre-se</h3></legend>
-<form action="cadastro.php" method="post">
-       <label for="usuario">Usuário:</label>
-       <input type="text" name="nome"><br>
-       <label for="email">Email:</label>
-       <input type="text" name="email"><br>
-       <label for="senha">Senha:</label>
-       <input type="password" name="senha"><br>
-       <input type="submit" name="enviar" value="enviar">
-
-</form>
-
-</fieldset>
+<fieldset>
+<legend><h3>Cadastre-se</h3></legend>
+  <form action="cadastro.php" method="post">
+    <div class="box">
+         <label for="usuario">Usuário:</label>
+         <input type="text" name="nome"><br>
+         <label for="email">Email:</label>
+         <input type="text" name="email"><br>
+         <label for="senha">Senha:</label>
+         <input type="password" name="senha"><br>
+         <input type="submit" name="enviar" value="enviar">
+    </div>
+  </form>
 
 </body>
+</html>
+</style>
+
+</fieldset>
 
 </html>
 
