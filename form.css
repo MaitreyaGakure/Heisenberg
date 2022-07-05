@@ -1,0 +1,48 @@
+body
+{
+  background-image:url(Kaibafundo.jpg);
+  background-size: 100%;
+};
+body 
+{
+  width: 450px;
+  border: solid;
+}
+div.a 
+{
+  text-align: center;
+}
+#logos 
+{
+  position: relative;
+  width: 420px;
+  text-align: center;
+  left: 32px;
+  top: 3px;
+}
+.im 
+{
+  position: relative;
+  text-align: center;
+  width: 9%;
+  height: 9%;
+}
+div.box 
+{
+  margin:0 auto;
+  width: 480px;
+  background:#222222;
+  position:relative;
+  top:50px;
+  border:1px solid #262626;
+}
+div.box h3 
+{
+  color: white;
+}
+  
+div.box label 
+{
+  color: white;
+    
+}
