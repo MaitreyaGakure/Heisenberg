@@ -4,13 +4,16 @@
 
 <head>
 	<meta charset="UTF-8">
+  
 	<title>Formulário</title>
 </head>
 <body>
     <center>
+
+      <form action="cadastro.php" method="post">
+        <div class="box">
+          <p>
 <legend><h3>Cadastre-se</h3></legend>
-  <form action="cadastro.php" method="post">
-    <div class="box">
          <label for="usuario">Usuário:</label>
          <input type="text" name="nome"><br>
          <label for="email">Email:</label>
@@ -18,7 +21,8 @@
          <label for="senha">Senha:</label>
          <input type="password" name="senha"><br>
          <input type="submit" name="enviar" value="enviar">
-    </div>
+        </p>
+        </div>
   </form>
 </center>
 <script type="text/javascript">

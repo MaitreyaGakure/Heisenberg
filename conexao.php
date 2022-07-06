@@ -1,9 +1,9 @@
 <?php
 
-$servidor = "localhost";
-$bdname = "cadastro";
-$usuario = "root";
-$senha = "";
+$servidor = "br894.hostgatot.com.br";
+$bdname = "mvpstudi_cadastro.com.br";
+$usuario = "mvpstudi_elektro";
+$senha = "ipi2022";
  
 $conexao = mysqli_connect($servidor, $usuario, $senha, $bdname);
 
